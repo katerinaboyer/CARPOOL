@@ -14,11 +14,14 @@ The navigation system has strict city limits restrictions and we also need to pr
 
 ### User Stories
 
-
 ### Pivotal Tracker Link
 
-
 ### Video Interview Questions
+- Introduce yourself and your organization
+- Describe the current process at yuor Northgate ride location
+- What deficiencies do you see with your current system
+- What solutions can we implement to make the process more efficient and user friendly?
+- What are you most looking forward to in this project? 
 
 
 
