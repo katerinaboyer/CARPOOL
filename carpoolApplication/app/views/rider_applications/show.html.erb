@@ -13,6 +13,18 @@
   <strong>Street Address:</strong>
   <%= @rider_application.street_address %>
 </p>
+<p>
+  <strong>Zip Code:</strong>
+  <%= @rider_application.zip_code %>
+</p>
+<p>
+  <strong>City:</strong>
+  <%= @rider_application.city %>
+</p>
+<p>
+  <strong>Number of Passengers:</strong>
+  <%= @rider_application.number_passengers %>
+</p>
 
 <%= link_to 'Edit', edit_rider_application_path(@rider_application) %> |
 <%= link_to 'Back', rider_applications_path %>
