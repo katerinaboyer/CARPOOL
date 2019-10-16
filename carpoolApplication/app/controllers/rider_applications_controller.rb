@@ -24,7 +24,7 @@ class RiderApplicationsController < ApplicationController
   # POST /rider_applications
   # POST /rider_applications.json
   def create
-    @rider_application = RiderApplication.new(rider_application_params)
+    @rider_application = RiderApplication.new()
 
     respond_to do |format|
       if @rider_application.save
@@ -69,6 +69,6 @@ class RiderApplicationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def rider_application_params
-      params.require(:rider_application).permit(:Name, :Phone)
+      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :application_received)
     end
 end
