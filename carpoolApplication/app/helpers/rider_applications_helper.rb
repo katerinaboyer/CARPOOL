@@ -1,0 +1,2 @@
+module RiderApplicationsHelper
+end

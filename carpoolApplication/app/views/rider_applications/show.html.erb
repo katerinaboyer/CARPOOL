@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rider_application.Name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @rider_application.Phone %>
+</p>
+
+<%= link_to 'Edit', edit_rider_application_path(@rider_application) %> |
+<%= link_to 'Back', rider_applications_path %>
