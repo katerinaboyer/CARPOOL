@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'application#hello'
   resources :rider_applications
   get 'greetings/hello'
 
