@@ -24,7 +24,7 @@ class RiderApplicationsController < ApplicationController
   # POST /rider_applications
   # POST /rider_applications.json
   def create
-    @rider_application = RiderApplication.new()
+    @rider_application = RiderApplication.new(rider_application_params)
 
     respond_to do |format|
       if @rider_application.save
