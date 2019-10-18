@@ -8,7 +8,19 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <header class='clearfix'>
+    <div class="top-nav">
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Rider Applications", rider_applications_path%></li>
+      </ul>
+    </div>
+  </header>
+
   <body>
-    <%= yield %>
+    <div class='content'>
+      <%= yield %>
+    </div>
   </body>
+
 </html>
