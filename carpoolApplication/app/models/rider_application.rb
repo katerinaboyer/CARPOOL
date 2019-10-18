@@ -4,4 +4,5 @@ class RiderApplication < ApplicationRecord
   validates             :Phone,             presence: true, :numericality => {:only_integer => true,  length: { is: 10} }
   validates             :zip_code,          presence: true, :numericality => {:only_integer => true,  length: { is: 5}  }
   validates             :number_passengers, presence: true, :numericality => {:only_integer => true}
+  validates_inclusion_of :zip_code, :in => [77840, 77845, 77801, 77802, 77803]
 end
