@@ -1,145 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/carpoolApplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/config/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/images/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/images/CARPOOL-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/cable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/channels/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/greetings.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/rider_applications.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/greetings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/rider_applications.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/greetings_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/rider_applications_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/helpers/greetings_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/helpers/rider_applications_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/jobs/application_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/mailers/application_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/models/application_record.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/models/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/models/rider_application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/greetings/hello.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/layouts/application.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/layouts/mailer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/layouts/mailer.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/_rider_application.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/spring" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/update" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/cable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/assets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/cookies_serializer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/mime_types.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/new_framework_defaults.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/session_store.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/puma.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/secrets.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/spring.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/migrate/20191016203232_create_rider_applications.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/migrate/20191016215222_add_columns_to_rider_applications.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/seeds.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/lib/assets/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/lib/tasks/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/log/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/controllers/greetings_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/controllers/rider_applications_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/helpers/greetings_helper_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/helpers/rider_applications_helper_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/models/rider_application_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/rails_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/requests/rider_applications_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/routing/rider_applications_routing_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/spec_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/greetings/hello.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/edit.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/index.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/new.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/show.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/controllers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/fixtures/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/fixtures/files/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/helpers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/integration/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/mailers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/models/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/tmp/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/vendor/assets/javascripts/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carpoolApplication/vendor/assets/stylesheets/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (10).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (9).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/current process screenshots/WIN_20190921_22_47_41_Pro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iteration_0/CARPOOL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iteration_0/CSCE431_Iteration_0_CARPOOL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iteration_0/ITERATION0.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iteration_0/User Stories.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -184,27 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="376" selection-start-line="376" selection-end-line="376" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/rider_application_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="610">
+              <caret line="370" selection-start-line="370" selection-end-line="370" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/spec/models/rider_application_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -511,12 +363,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571258997582</updated>
-      <workItem from="1571259000726" duration="18966000" />
+      <workItem from="1571259000726" duration="19696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18966000" />
+    <option name="totallyTimeSpent" value="19696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,10 +381,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="41" width="1200" height="950" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22963604" />
+      <window_info id="Favorites" sideWeight="0.5021645" side_tool="true" visible="true" weight="0.22963604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.22963604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -750,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        <state relative-caret-position="610">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
         </state>
       </provider>
     </entry>
@@ -804,18 +655,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/rider_application_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/rider_application_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
