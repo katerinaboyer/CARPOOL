@@ -1,2 +1,0 @@
-class RiderApplication < ApplicationRecord
-end
