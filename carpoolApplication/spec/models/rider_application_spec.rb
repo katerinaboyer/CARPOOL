@@ -43,6 +43,11 @@ RSpec.describe RiderApplication, type: :model do
     expect(subject).to_not be_valid
   end
 
+  it "is not valid city outside of bryan college station" do
+    subject.city = "Dallas"
+    expect(subject).to_not be_valid
+  end
+
   it "is not valid without a Number of Passengers" do
     subject.number_passengers = nil
     expect(subject).to_not be_valid
