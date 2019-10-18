@@ -2,7 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/carpoolApplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/.rspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/images/CARPOOL-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/cable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/channels/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/greetings.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/javascripts/rider_applications.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/greetings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/rider_applications.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/greetings_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/controllers/rider_applications_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/helpers/greetings_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/helpers/rider_applications_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/models/rider_application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/greetings/hello.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/_rider_application.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/app/views/rider_applications/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/spring" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/cookies_serializer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/mime_types.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/new_framework_defaults.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/session_store.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/secrets.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/config/spring.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/migrate/20191016203232_create_rider_applications.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/migrate/20191016215222_add_columns_to_rider_applications.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/controllers/greetings_controller_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/controllers/rider_applications_controller_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/helpers/greetings_helper_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/helpers/rider_applications_helper_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/models/rider_application_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/rails_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/requests/rider_applications_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/routing/rider_applications_routing_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/spec_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/greetings/hello.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/edit.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/index.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/new.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/spec/views/rider_applications/show.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/fixtures/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/vendor/assets/javascripts/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carpoolApplication/vendor/assets/stylesheets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/Screenshot (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/current process screenshots/WIN_20190921_22_47_41_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_0/CARPOOL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_0/CSCE431_Iteration_0_CARPOOL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_0/ITERATION0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iteration_0/User Stories.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -31,29 +167,46 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="carpoolApplication" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="745">
+              <caret line="376" selection-start-line="376" selection-end-line="376" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/spec/models/rider_application_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -66,33 +219,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/greetings_controller.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/rider_applications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="329">
+              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+        <entry file="file://$PROJECT_DIR$/app/models/rider_application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="386">
+              <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -100,28 +248,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+            <state relative-caret-position="402">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/extensions/x86_64-darwin-18/2.3.0/pg-1.1.4/mkmf.log">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/views/rider_applications/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20191016203232_create_rider_applications.rb" />
-        <option value="$PROJECT_DIR$/app/views/rider_applications/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/rider_applications_controller.rb" />
@@ -130,16 +281,18 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/views/rider_applications/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/rider_application.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="27" />
-    <option name="width" value="1255" />
+    <option name="x" value="122" />
+    <option name="y" value="41" />
+    <option name="width" value="1200" />
     <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,6 +318,18 @@
               <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,13 +342,14 @@
             <path>
               <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="rider_applications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="locales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
@@ -195,6 +361,17 @@
               <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carpoolApplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carpoolApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,12 +511,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571258997582</updated>
-      <workItem from="1571259000726" duration="13903000" />
+      <workItem from="1571259000726" duration="18966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13903000" />
+    <option name="totallyTimeSpent" value="18966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,17 +528,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="27" width="1255" height="950" extended-state="0" />
+    <frame x="122" y="41" width="1200" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38957816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22963604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32943925" />
       <window_info anchor="bottom" id="Messages" weight="0.6483645" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.53621495" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4602804" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
@@ -439,13 +616,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/rider_application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -463,13 +633,6 @@
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/rider_applications/_rider_application.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -482,13 +645,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/rider_applications/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/rider_applications/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/rider_applications/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20191016215222_add_columns_to_rider_applications.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20191016203232_create_rider_applications.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/rider_applications.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -530,13 +676,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/rider_applications_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/rider_applications_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -589,27 +721,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/extensions/x86_64-darwin-18/2.3.0/pg-1.1.4/mkmf.log">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20191016203232_create_rider_applications.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20191016215222_add_columns_to_rider_applications.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/rider_applications_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/rider_applications/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/rider_application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/rider_application_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
