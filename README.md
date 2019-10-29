@@ -14,6 +14,8 @@ Follow https://medium.com/@hschin/developing-in-rails-on-aws-cloud9-c0ac7ef2431b
   navigate to the rails application in your terminal  
   >> bundle update  
   >> bundle install  
+  >> IF ON C9: sudo service postgresql restart
   >> rails db:migrate  
   >> rails s  
-  navigate to localhost:3000/rider_applications
+  navigate to localhost/rider_applications
+  
