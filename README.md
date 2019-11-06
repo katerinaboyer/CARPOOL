@@ -15,7 +15,8 @@ then continue to https://stackoverflow.com/questions/26545746/cloud9-postgres an
   navigate to the rails application in your terminal  
   >> bundle update  
   >> bundle install  
-  >> IF ON C9: sudo service postgresql restart\n
+  >> IF ON C9: sudo service postgresql restart
+  
   >> rails db:migrate  
   >> rails s  
   navigate to localhost/rider_applications
