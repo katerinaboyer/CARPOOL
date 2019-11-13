@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>CarpoolApplication</title>
-    <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%=stylesheet_link_tag "application.css"%>
 
   <header>
-      <div class="top-nav">
-        <ul>
+      <div>
+        <ul class="navbar">
+          <%# if current_user_role %>
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "Current Rides", rider_applications_path%></li>
           <li><%= link_to "Users", users_path%></li>
@@ -27,8 +22,14 @@
 
   <body>
     <div class='content'>
+      <!--devise gem configuration-->
+      <% if notice %>
+        <p class="alert alert-success"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+        <p class="alert alert-danger"><%= alert %></p>
+      <% end %>
       <%= yield %>
     </div>
   </body>
-
 </html>

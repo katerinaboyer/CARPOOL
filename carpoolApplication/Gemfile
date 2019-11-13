@@ -20,6 +20,12 @@ gem 'cucumber-rails'
 gem 'database_cleaner'
 gem 'simplecov', require: false, group: :test
 
+# user auth library
+gem 'cancan'
+
+# user authentication
+gem 'devise'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

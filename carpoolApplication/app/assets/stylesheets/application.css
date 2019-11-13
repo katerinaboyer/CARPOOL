@@ -26,14 +26,17 @@
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    color: #ffffff;
 }
 
 li {
     float: left;
+    color: #ffffff;
+    margin: 0px;
 }
 
 li a {
@@ -42,6 +45,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0px;
 }
 
 li a:hover {
@@ -50,4 +54,11 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+}
+
+.navbar {
+    color: #ffffff;
+    width: 100%;
+    background-color: #333;
+    width: 100%;
 }
