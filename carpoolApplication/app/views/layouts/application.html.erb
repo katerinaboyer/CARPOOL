@@ -6,10 +6,11 @@
   <header>
       <div>
         <ul class="navbar">
-          <%# if current_user_role %>
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "Current Rides", rider_applications_path%></li>
-          <li><%= link_to "Users", users_path%></li>
+          <% if admin? %>
+            <li> <%=link_to "Users", users_path%></li>
+          <% end %>
           <% if current_user %>
             Logged in as <%= current_user.email %>.
             <li style="float:right"><%= link_to "Log Out", logout_path %></li>

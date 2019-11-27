@@ -6,4 +6,6 @@ class RiderApplication < ApplicationRecord
   validates             :number_passengers, presence: true, :numericality => {:only_integer => true}
   validates_inclusion_of :zip_code, :in => [77840, 77845, 77801, 77802, 77803]
   validates_inclusion_of :city, :in => ["College Station", "Bryan", "college station", "bryan"]
+
+  STATUS =%w[pending in_progress finished].freeze
 end

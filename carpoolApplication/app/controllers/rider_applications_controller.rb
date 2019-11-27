@@ -4,7 +4,7 @@ class RiderApplicationsController < ApplicationController
   # GET /rider_applications
   # GET /rider_applications.json
   def index
-    @rider_applications = RiderApplication.all
+    @rider_applications = RiderApplication.order(ride_status: :desc)
   end
 
   # GET /rider_applications/1
@@ -25,7 +25,6 @@ class RiderApplicationsController < ApplicationController
   # POST /rider_applications.json
   def create
     @rider_application = RiderApplication.new(rider_application_params)
-
     respond_to do |format|
       if @rider_application.save
         format.html { redirect_to @rider_application, notice: 'Rider application was successfully created.' }
@@ -69,6 +68,6 @@ class RiderApplicationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def rider_application_params
-      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :application_received)
+      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :ride_status, :application_received)
     end
 end

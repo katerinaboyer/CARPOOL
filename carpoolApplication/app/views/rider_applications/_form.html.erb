@@ -41,7 +41,15 @@
     <%= f.text_field :number_passengers %>
   </div>
 
+  <div class="field">
+    <%= f.label :ride_status %>
+    <%= f.collection_select :ride_status, RiderApplication::STATUS, :string, :humanize %>
+  </div>
 
+  <div class="field">
+    <%= f.label :notes %>
+    <%= f.text_area :notes, :cols => "40", :rows => "5" %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>
