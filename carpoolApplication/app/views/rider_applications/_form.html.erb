@@ -43,7 +43,7 @@
 
   <div class="field">
     <%= f.label :ride_status %>
-    <%= f.collection_select :ride_status, RiderApplication::STATUS, :string, :humanize %>
+    <%= f.collection_select :ride_status, RiderApplication::STATUS, :strip, :humanize %>
   </div>
 
   <div class="field">
