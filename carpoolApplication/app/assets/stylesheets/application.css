@@ -14,6 +14,9 @@
  *= require_self
  */
 
+#background {
+    background-color: #4CE32F;
+}
 
 .logo {
     max-width: 300px;
@@ -58,7 +61,6 @@ li a:hover {
 
 .navbar {
     color: #ffffff;
-    width: 100%;
     background-color: #333;
     width: 100%;
 }
