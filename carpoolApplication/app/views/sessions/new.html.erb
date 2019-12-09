@@ -1,16 +1,33 @@
-<p id=”alert”><%= alert %></p>
-<h1>Login</h1>
-<%= form_tag sessions_path do |form| %>
-  <div class=”field”>
-    <%= label_tag :email %>
-    <%= text_field_tag :email %>
-  </div>
-  <div class=”field”>
-    <%= label_tag :password %>
-    <%= password_field_tag :password %>
-  </div>
-  <div class=”actions”>
-    <%= submit_tag "Log In" %>
-  </div>
-  <p><%= link_to "Sign Up", signup_path%></p>
-<% end %>
+<!DOCTYPE html>
+<html>
+
+  <%=stylesheet_link_tag "sessions", :media => "all" %>
+      
+    <div class="background">
+      
+      <p id=”alert”><%= alert %></p>
+      
+      <div class="title">
+        <h1>CARPOOL Login</h1>
+      </div>
+    
+      <div class = "form-container">
+        <%= form_tag sessions_path do |form| %>
+          <div class=”field”>
+            <b><%= label_tag :email %></b>
+            <%= email_field_tag :email %>
+          </div>
+          <div class=”field”>
+            <b><%= label_tag :password %></b>
+            <%= password_field_tag :password %>
+          </div>
+          <button id='button'>
+            <%= "Log In" %>
+          </button>
+          <h3><%= link_to "Sign Up", signup_path%></h3>
+        <% end %>
+      </div>
+      
+    </div>
+
+</html>

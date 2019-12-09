@@ -13,9 +13,13 @@
  *= require_tree .
  *= require_self
  */
-
-#background {
-    background-color: #4CE32F;
+ 
+.background{
+    background-image: linear-gradient(to bottom right, lightgreen, darkgreen);
+    background-size: cover;
+    min-height: 95.2vh;
+    overflow: hidden;
+    z-index: -99999;
 }
 
 .logo {

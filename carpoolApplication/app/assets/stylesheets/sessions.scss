@@ -1,3 +1,57 @@
-// Place all the styles related to the sessions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.title{
+   justify-content: center;
+   text-align: center;
+   transform: translateY(300%);
+   border-radius: 25px;
+   
+}
+
+.background {
+    background-image: linear-gradient(to bottom right, lightgreen, darkgreen);
+    background-size: cover;
+    min-height: 95.2vh;
+    overflow: hidden;
+    z-index: -99999;
+}
+
+.form-container{
+    transform: translate(25%, 50%);
+    overflow:auto;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=integer] {
+    position:abosolute;
+    z-index: 99999;
+
+    width: calc(100% - 50%);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: (0, 0, 0);
+    color: black;
+    box-shadow: 5px 8px 10px 0 rgba(0,0,0,0.3), 10px 17px 50px 0 rgba(0,0,0,0.25);
+}
+
+.field:empty:before{
+    content:attr(data-placeholder);
+}
+
+#button {
+    background-color: green; /* Green */
+    border: 0.5px solid green;
+    width: calc(50%);
+    margin-right: 7px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: white;
+    padding: 7px 25px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 5px 8px 10px 0 rgba(0,0,0,0.3), 10px 17px 50px 0 rgba(0,0,0,0.25);
+
+}
+
+#button:hover{
+    background-color: darkgreen;
+}
