@@ -48,15 +48,12 @@ ActiveRecord::Schema.define(version: 20191209040350) do
     t.string   "driver_name"
   end
 
-<<<<<<< HEAD
-=======
   create_table "rides", force: :cascade do |t|
     t.string   "ride_status"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
 
->>>>>>> 0792e5405f48064f753f813ad094c9d2bcb5d324
   create_table "users", force: :cascade do |t|
     t.string   "email"
     t.string   "password_digest"
