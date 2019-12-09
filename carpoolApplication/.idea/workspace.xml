@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/rider_applications/groups.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/rides/groups.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209040350_add_license_plate_to_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/drivers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/drivers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/rider_applications_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rider_applications_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/rides_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/rides_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/drivers/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/drivers/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rides/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rides/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rides/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rides/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lit-earth-21193" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -71,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/drivers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -85,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -94,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/rides/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -121,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/rider_applications/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="436">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -130,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/rides/groups.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -421,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60414000" />
+    <option name="totallyTimeSpent" value="60880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -721,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/rides/groups.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -742,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/rider_applications/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -752,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/rides/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -770,7 +753,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/drivers/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -780,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
