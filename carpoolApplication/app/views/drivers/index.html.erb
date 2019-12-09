@@ -32,9 +32,7 @@
         <td><%= link_to rider_app.street_address, "https://www.google.com/maps/search/?api=1&query=" + rider_app.street_address + " " + rider_app.city%></td>
         <td><%= rider_app.zip_code%></td>
         <td><%= rider_app.number_passengers%></td>
-        <td><%= link_to 'Show', rider_app %></td>
-<!--        <td><%#= link_to 'Edit', edit_driver_path(rider_app) %></td>-->
-        <td><%= link_to 'Destroy', rider_app, method: :destroy, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Show', rider_app %></td>
             <% end %>
         <% end %>
       </tr>
