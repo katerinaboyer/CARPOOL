@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :rides
   root 'application#hello'
 
   resources :users
