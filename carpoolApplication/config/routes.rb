@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :cars
+  resources :drivers
   root 'application#hello'
 
   resources :users

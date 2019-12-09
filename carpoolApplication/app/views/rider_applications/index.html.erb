@@ -11,7 +11,6 @@
       <th>Zip Code</th>
       <th>City</th>
       <th>Number of Passengers</th>
-      <th>Ride Status</th>
       <th>Notes</th>
       <th colspan="8"></th>
     </tr>
@@ -19,7 +18,7 @@
 
   <tbody>
     <% @rider_applications.each do |rider_application| %>
-      <tr <% if rider_application.ride_status == "pending" %> style="background-color: yellow" <%end %>
+      <tr <% if rider_application.ride_status == "in_progress" %> style="background-color: yellow" <%end %>
           <% if rider_application.ride_status == "finished" %> style="background-color: mediumspringgreen" <%end %> >
         <% if rider_application.ride_status == "pending" %>
         <td><%= rider_application.Name %></td>
@@ -28,14 +27,12 @@
         <td><%= rider_application.zip_code %></td>
         <td><%= rider_application.city %></td>
         <td><%= rider_application.number_passengers %></td>
-        <td><%= rider_application.ride_status %></td>
           <%  if can? :update, @rider_application %>
             <td><%= link_to "Ride Notes",  edit_rider_application_path(rider_application)%></td>
           <% else %>
             <td><%= rider_application.notes %></td>
           <% end %>
         <td><%= link_to 'Show', rider_application %></td>
-        <td><%= link_to 'Edit', edit_rider_application_path(rider_application) %></td>
         <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>
@@ -54,7 +51,6 @@
       <th>Zip Code</th>
       <th>City</th>
       <th>Number of Passengers</th>
-      <th>Ride Status</th>
       <th>Notes</th>
       <th colspan="8"></th>
     </tr>
@@ -62,7 +58,7 @@
 
   <tbody>
     <% @rider_applications.each do |rider_application| %>
-      <tr <% if rider_application.ride_status == "pending" %> style="background-color: yellow" <%end %>
+      <tr <% if rider_application.ride_status == "in_progress" %> style="background-color: yellow" <%end %>
           <% if rider_application.ride_status == "finished" %> style="background-color: mediumspringgreen" <%end %> >
         <% if rider_application.ride_status == "in_progress" %>
         <td><%= rider_application.Name %></td>
@@ -71,14 +67,12 @@
         <td><%= rider_application.zip_code %></td>
         <td><%= rider_application.city %></td>
         <td><%= rider_application.number_passengers %></td>
-        <td><%= rider_application.ride_status %></td>
           <%  if can? :update, @rider_application %>
             <td><%= link_to "Ride Notes",  edit_rider_application_path(rider_application)%></td>
           <% else %>
             <td><%= rider_application.notes %></td>
           <% end %>
         <td><%= link_to 'Show', rider_application %></td>
-        <td><%= link_to 'Edit', edit_rider_application_path(rider_application) %></td>
         <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>
@@ -97,7 +91,6 @@
       <th>Zip Code</th>
       <th>City</th>
       <th>Number of Passengers</th>
-      <th>Ride Status</th>
       <th>Notes</th>
       <th colspan="8"></th>
     </tr>
@@ -105,7 +98,7 @@
 
   <tbody>
     <% @rider_applications.each do |rider_application| %>
-      <tr <% if rider_application.ride_status == "pending" %> style="background-color: yellow" <%end %>
+      <tr <% if rider_application.ride_status == "in_progress" %> style="background-color: yellow" <%end %>
           <% if rider_application.ride_status == "finished" %> style="background-color: mediumspringgreen" <%end %> >
         <% if rider_application.ride_status == "finished" %>
         <td><%= rider_application.Name %></td>
@@ -114,14 +107,12 @@
         <td><%= rider_application.zip_code %></td>
         <td><%= rider_application.city %></td>
         <td><%= rider_application.number_passengers %></td>
-        <td><%= rider_application.ride_status %></td>
           <%  if can? :update, @rider_application %>
             <td><%= link_to "Ride Notes",  edit_rider_application_path(rider_application)%></td>
           <% else %>
             <td><%= rider_application.notes %></td>
           <% end %>
         <td><%= link_to 'Show', rider_application %></td>
-        <td><%= link_to 'Edit', edit_rider_application_path(rider_application) %></td>
         <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>
