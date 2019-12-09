@@ -5,6 +5,10 @@ class RidesController < ApplicationController
   # GET /rides.json
   def index
     @rides = Ride.all
+    @rider_applications = RiderApplication.all
+  end
+
+  def groups
   end
 
   # GET /rides/1

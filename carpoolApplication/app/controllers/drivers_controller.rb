@@ -11,12 +11,20 @@ class DriversController < ApplicationController
     else
       @current_user = nil
     end
+    @users = User.all
+    @cars = Car.all
   end
 
   # GET /drivers/1
   # GET /drivers/1.json
   def show
   end
+
+  # def license_match?
+  #   if @user.license_plate == @car.license_plate
+  #     end
+  #   end
+  # end
 
   # GET /drivers/new
   def new

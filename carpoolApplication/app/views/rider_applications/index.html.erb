@@ -23,7 +23,7 @@
         <% if rider_application.ride_status == "pending" %>
         <td><%= rider_application.Name %></td>
         <td><%= rider_application.Phone %></td>
-        <td><%= link_to rider_application.street_address, "https://www.google.com/maps/search/?api=1&query=Z+islander+bryan" %></td>
+        <td><%= link_to rider_application.street_address, "https://www.google.com/maps/search/?api=1&query=" + rider_application.street_address + " " + rider_application.city%></td>
         <td><%= rider_application.zip_code %></td>
         <td><%= rider_application.city %></td>
         <td><%= rider_application.number_passengers %></td>
@@ -33,6 +33,7 @@
             <td><%= rider_application.notes %></td>
           <% end %>
         <td><%= link_to 'Show', rider_application %></td>
+<!--          <td> <%#= link_to 'Ride Groupings', rides_path%></td>-->
         <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>

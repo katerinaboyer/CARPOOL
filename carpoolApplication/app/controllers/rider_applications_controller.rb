@@ -48,6 +48,15 @@ class RiderApplicationsController < ApplicationController
         format.json { render json: @rider_application.errors, status: :unprocessable_entity }
       end
     end
+    @rider_application.ride_status = update_status
+  end
+
+  def update_status
+    if @rider_application.driver_name.nil?
+      @rider_application.ride_status = "pending"
+    else
+      @rider_application.ride_status = "in_progress"
+    end
   end
 
   # DELETE /rider_applications/1
