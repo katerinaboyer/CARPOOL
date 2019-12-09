@@ -32,9 +32,9 @@
           <% else %>
             <td><%= rider_application.notes %></td>
           <% end %>
-        <td><%= link_to 'Show', rider_application %></td>
+        <td><%= button_to 'Show', rider_application %></td>
 <!--          <td> <%#= link_to 'Ride Groupings', rides_path%></td>-->
-        <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Delete', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>
     <% end %>
@@ -73,8 +73,8 @@
           <% else %>
             <td><%= rider_application.notes %></td>
           <% end %>
-        <td><%= link_to 'Show', rider_application %></td>
-        <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Show', rider_application %></td>
+        <td><%= button_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>
     <% end %>
@@ -113,8 +113,8 @@
           <% else %>
             <td><%= rider_application.notes %></td>
           <% end %>
-        <td><%= link_to 'Show', rider_application %></td>
-        <td><%= link_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Show', rider_application %></td>
+        <td><%= button_to 'Destroy', rider_application, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <%end %>
       </tr>
     <% end %>

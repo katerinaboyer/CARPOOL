@@ -8,7 +8,9 @@
         <ul class="navbar">
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "Rides", rider_applications_path%></li>
+          <% if current_user %>
           <li><%= link_to "Driver Page", drivers_path%></li>
+          <% end %>
           <% if admin? %>
             <li><%= link_to "Cars", cars_path%></li>
             <li> <%=link_to "Users", users_path%></li>

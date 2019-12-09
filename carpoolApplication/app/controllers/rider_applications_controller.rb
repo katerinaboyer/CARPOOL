@@ -62,6 +62,7 @@ class RiderApplicationsController < ApplicationController
   # DELETE /rider_applications/1
   # DELETE /rider_applications/1.json
   def destroy
+    @rider_application = RiderApplication.find(params[:id])
     @rider_application.destroy
     respond_to do |format|
       format.html { redirect_to rider_applications_url, notice: 'Rider application was successfully destroyed.' }

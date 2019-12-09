@@ -1,4 +1,7 @@
+
+
 class GreetingsController < ApplicationController
-  def hello
+
+  def index
   end
 end
