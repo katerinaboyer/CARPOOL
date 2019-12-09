@@ -48,6 +48,15 @@ class RiderApplicationsController < ApplicationController
         format.json { render json: @rider_application.errors, status: :unprocessable_entity }
       end
     end
+    @rider_application.ride_status = update_status
+  end
+
+  def update_status
+    if @rider_application.driver_name.nil?
+      @rider_application.ride_status = "pending"
+    else
+      @rider_application.ride_status = "in_progress"
+    end
   end
 
   # DELETE /rider_applications/1
@@ -68,6 +77,6 @@ class RiderApplicationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def rider_application_params
-      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :ride_status, :application_received)
+      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :ride_status, :driver_name, :application_received)
     end
 end

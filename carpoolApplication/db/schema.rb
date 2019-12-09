@@ -10,10 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20191126142819) do
+ActiveRecord::Schema.define(version: 20191209040350) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cars", force: :cascade do |t|
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "Make"
+    t.string   "Model"
+    t.integer  "Year"
+    t.integer  "Number_of_seats"
+    t.string   "License_plate"
+  end
+
+  create_table "drivers", force: :cascade do |t|
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.string   "Name"
+    t.string   "Phone"
+    t.integer  "number_passengers"
+  end
 
   create_table "rider_applications", force: :cascade do |t|
     t.string   "Name"
@@ -27,8 +45,18 @@ ActiveRecord::Schema.define(version: 20191126142819) do
     t.datetime "application_received"
     t.string   "ride_status"
     t.text     "notes"
+    t.string   "driver_name"
   end
 
+<<<<<<< HEAD
+=======
+  create_table "rides", force: :cascade do |t|
+    t.string   "ride_status"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+>>>>>>> 0792e5405f48064f753f813ad094c9d2bcb5d324
   create_table "users", force: :cascade do |t|
     t.string   "email"
     t.string   "password_digest"
@@ -38,6 +66,7 @@ ActiveRecord::Schema.define(version: 20191126142819) do
     t.integer  "uin"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+    t.string   "license_plate"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
   end
 

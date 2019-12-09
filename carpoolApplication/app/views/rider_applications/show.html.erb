@@ -31,5 +31,15 @@
   <%= @rider_application.ride_status %>
 </p>
 
+<p>
+  <strong>Driver Name:</strong>
+  <%= @rider_application.driver_name %>
+</p>
+
+<% if @rider_application.ride_status == "in_progress" %>
+  <%= link_to 'Show Ride Groupings', rides_path %>
+<% end %>
+<br>
+
 <%= link_to 'Edit', edit_rider_application_path(@rider_application) %> |
-<%= link_to 'Back', rider_applications_path %>
+<%= link_to 'Back', rider_applications_path %> 
