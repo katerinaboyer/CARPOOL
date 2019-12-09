@@ -1,64 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cars.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/drivers.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/cars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/drivers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/drivers_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/cars_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/drivers_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/driver.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/_driver.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/drivers/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209002135_create_drivers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209005114_add_name_to_driver.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209005241_add_phone_to_driver.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209005306_add_numberpass_to_driver.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209020549_add_drive_to_rider_applications.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209022018_create_cars.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191209022157_add_params_to_cars.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/controllers/cars_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/controllers/drivers_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/helpers/cars_helper_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/helpers/drivers_helper_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/car_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/driver_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/cars_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/drivers_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/routing/cars_routing_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/routing/drivers_routing_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/cars/edit.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/cars/index.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/cars/new.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/cars/show.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/drivers/edit.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/drivers/index.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/drivers/new.html.erb_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/views/drivers/show.html.erb_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -109,20 +52,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/rider_applications/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="375">
               <caret line="25" column="123" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -380,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52185000" />
+    <option name="totallyTimeSpent" value="52636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +346,7 @@
     <frame x="0" y="23" width="1155" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83972126" visible="true" weight="0.17944093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83972126" visible="true" weight="0.28223625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.16027875" side_tool="true" weight="0.22562893" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,7 +359,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32943925" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34228972" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34228972" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.4754673" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -561,17 +512,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/rider_applications/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="25" column="123" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/rider_applications/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="25" column="123" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
