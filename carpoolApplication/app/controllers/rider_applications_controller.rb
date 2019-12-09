@@ -68,6 +68,6 @@ class RiderApplicationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def rider_application_params
-      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :ride_status, :application_received)
+      params.require(:rider_application).permit(:Name, :Phone, :street_address, :zip_code, :city, :number_passengers, :ride_status, :driver_name, :application_received)
     end
 end
