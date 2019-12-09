@@ -10,10 +10,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20191205213858) do
+=======
+ActiveRecord::Schema.define(version: 20191209022157) do
+>>>>>>> 80415399570128fb12416c0d8e31d262f3213697
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cars", force: :cascade do |t|
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "Make"
+    t.string   "Model"
+    t.integer  "Year"
+    t.integer  "Number_of_seats"
+    t.string   "License_plate"
+  end
+
+  create_table "drivers", force: :cascade do |t|
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.string   "Name"
+    t.string   "Phone"
+    t.integer  "number_passengers"
+  end
 
   create_table "rider_applications", force: :cascade do |t|
     t.string   "Name"
@@ -27,6 +49,12 @@ ActiveRecord::Schema.define(version: 20191205213858) do
     t.datetime "application_received"
     t.string   "ride_status"
     t.text     "notes"
+    t.string   "driver_name"
+  end
+
+  create_table "rides", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "rides", force: :cascade do |t|

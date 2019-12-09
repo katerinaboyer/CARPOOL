@@ -2,10 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889660c5-d10b-4650-8c01-12ba42ef90dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cars.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/drivers.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/cars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/drivers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/drivers_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/cars_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/drivers_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/driver.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/cars/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/_driver.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/drivers/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209002135_create_drivers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209005114_add_name_to_driver.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209005241_add_phone_to_driver.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209005306_add_numberpass_to_driver.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209020549_add_drive_to_rider_applications.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209022018_create_cars.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191209022157_add_params_to_cars.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/controllers/cars_controller_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/controllers/drivers_controller_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/helpers/cars_helper_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/helpers/drivers_helper_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/car_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/driver_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/cars_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/drivers_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/routing/cars_routing_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/routing/drivers_routing_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/cars/edit.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/cars/index.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/cars/new.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/cars/show.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/drivers/edit.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/drivers/index.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/drivers/new.html.erb_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/views/drivers/show.html.erb_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rider_applications/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -53,12 +104,12 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="67" column="66" lean-forward="true" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+              <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/rider_applications/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -67,11 +118,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/rides_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -108,7 +168,6 @@
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/application_record.rb" />
         <option value="$PROJECT_DIR$/app/views/greetings/hello.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/rider_applications.scss" />
@@ -120,6 +179,7 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/rider_applications/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -320,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52100000" />
+    <option name="totallyTimeSpent" value="52185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,6 +393,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1155" height="950" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83972126" visible="true" weight="0.17944093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -466,7 +527,6 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml" />
     <entry file="file://$PROJECT_DIR$/config/environment.rb" />
     <entry file="file://$PROJECT_DIR$/config/puma.rb" />
-    <entry file="file://$PROJECT_DIR$/config/routes.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20191016203232_create_rider_applications.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20191016215222_add_columns_to_rider_applications.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20191102011649_create_users.rb" />
@@ -490,14 +550,14 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="67" column="66" lean-forward="true" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/rides_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -505,6 +565,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="25" column="123" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>

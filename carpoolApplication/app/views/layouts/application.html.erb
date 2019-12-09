@@ -7,13 +7,14 @@
       <div>
         <ul class="navbar">
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "Current Rides", rider_applications_path%></li>
+          <li><%= link_to "Rides", rider_applications_path%></li>
+          <li><%= link_to "Driver Page", drivers_path%></li>
           <% if admin? %>
+            <li><%= link_to "Cars", cars_path%></li>
             <li> <%=link_to "Users", users_path%></li>
           <% end %>
           <% if current_user %>
-            Logged in as <%= current_user.email %>.
-            <li style="float:right"><%= link_to "Log Out", logout_path %></li>
+            <li style="float:right"><%= link_to current_user.first_name + " " + current_user.last_name, logout_path %></li>
           <% else %>
             <li style="float:right"><%= link_to "Log In", login_path %></li>
           <% end %>
